@@ -12,7 +12,8 @@ Download VDAWorkstationSetup_1912.exe from citrix downloads page.
 
 ### Usage
 
-*  Run VDA upgrade.ps1 file. It will copy install.bat, remove.bat, and VDAWorkstationSetup_1912.exe to c:\temp on each VDI.
+*  Customize and copy install.bat, remove.bat and VDAWorkstationSetup_1912.exe to a network share. 
+*  Run VDA upgrade.ps1 file. It will copy install.bat, remove.bat, and VDAWorkstationSetup_1912.exe from network share to c:\temp on        every VDI in the list.
 
 ### How does it work
 
