@@ -1,4 +1,4 @@
-# Citrix-VDA-Upgrade
+# Citrix-VDA-Upgrade-Scripts
 
 Scripts to upgrade Citrix VDA agent
 
@@ -18,9 +18,9 @@ Download VDAWorkstationSetup_1912.exe from citrix downloads page.
 ### How does it work
 
 *  Creates Scheduled tasks - One for uninstalling existing VDA agent and another for installing new VDA agent.
-*  Executes VDAUninstall scheduled task first. This scheduled task runas after 3 minutes it is created. Once started, it runs remove.bat    file and restart the VDA.
+*  Executes VDAUninstall scheduled task first. This scheduled task runs after 3 minutes it is created. Once started, it runs remove.bat    file and restarts the VDA.
 *  After reboot, it runs VDAInstall scheduled task. This scheduled task runs install.bat file. No user login is required.
-*  After installation is complete, it deletes install.bat, remove.bat, VDAWorkstationSetup_1912.exe files from c:\temp and VDAuninstall,    VDAInstall scheduled tasks.
+*  After installation is complete, it deletes install.bat, remove.bat, VDAWorkstationSetup_1912.exe files from c:\temp and also deletes    VDAuninstall, VDAInstall scheduled tasks.
 
 ### Built With
 
