@@ -29,7 +29,7 @@ Download VDAWorkstationSetup_1912.exe from citrix downloads page.
 
 ### Authors
 
-* **Tech Guy** - [TechScripts](https://github.com/TechScripts)
+* **Chay** - [ChayScripts](https://github.com/ChayScripts)
 
 ### Contributing
 
